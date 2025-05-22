@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar{
+    background: hsl(215, 10%, 11%);
+    padding: 30px 25px;
+    height: 90px;
+}
+
+.navbar nav{
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+
+.navbar img{
+    width: 50px;
+    margin-right: 10px;
+}
+.navbar span{
+    font-family: "Inter","sans-serif";
+    font-size: 35px;
+    font-weight: 700;
+    color: hsl(189, 100%, 65%);
+}
+
+.maincontent{
+    background-image: url("src/assets/react-half.png");
+    background-repeat: no-repeat;
+    background-position: right 60%;
+    background-size: 175px;
+    font-family: "Inter";
+    padding: 60px 30px;
+}
+
+.maincontent h1{
+    margin: 0;
+    font-size: 50px;
+}
+
+.maincontent ul{
+    margin-top: 46px;
+    max-width: 400px;
+}
+
+.maincontent ul li{
+    padding-block: 10px;
+    font-size: 25px;
+}
+
+.maincontent ul li::marker{
+    color: hsl(189, 100%, 65%);
+    font-size: 30px;
+}
+body{
+    background: hsl(215, 10%, 15%);
+    color: white;
+    margin: 0;
+}

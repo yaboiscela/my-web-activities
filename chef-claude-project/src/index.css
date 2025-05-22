@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+body{
+  margin: 0;
+  background-color: #f1e7db;
+  font-family: "Inter";
+}
+
+.recipe-header{
+  background-color: white;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+
+.recipe-header img{
+  width: 40px;
+  margin-right: 10px;
+}
+
+.recipe-header span{
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.ingredients-form{
+  padding: 70px 30px;
+}
+
+.ingredients-form .container-form{
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.add-ingredient-form{
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.add-ingredient-form input{
+  border-radius: 5px;
+  border: 1px solid #b2b2b2;
+  padding: 9px 13px;
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.5);
+  flex-grow: 1;
+  min-width: 150px;
+  margin-bottom: 50px;
+}
+
+.add-ingredient-form button{
+  border: none;
+  width: 150px;
+  border-radius: 5px;
+  background-color: #212121;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.5);
+  margin-bottom: 50px;
+}
+
+.add-ingredient-form button::before{
+  content: "+";
+  margin-right: 5px;
+}
+
+.ingredient-list{
+  margin-bottom: 50px;
+}
+
+.get-recipe-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  background-color:#d8d0c6;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.get-recipe-container h3{
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.get-recipe-container p {
+  color: #6B7280;
+  font-size: 0.875rem;
+    line-height: 20px;
+}
+
+.get-recipe-container button{
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: rgb(210, 115, 42);
+  color: #f1e7db;
+  border: none;
+  font-size: 20px;
+}
+
+.suggested-recipe-container {
+    color: #475467;
+    line-height: 28px;
+    font-size: 20px;
+    font-weight: 400;
+    overflow-x: auto;
+    word-wrap: break-word; 
+}
+
+.suggested-recipe-container pre,
+.suggested-recipe-container code {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.suggested-recipe-container ul li, .suggested-recipe-container ol li {
+    margin-bottom: 8px;
+}
